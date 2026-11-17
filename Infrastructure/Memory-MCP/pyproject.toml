@@ -1,0 +1,16 @@
+[project]
+name = "kobog-memory"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "mcp>=1.28,<2",
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[project.scripts]
+kobog-memory = "kobog_memory.server:main"

@@ -1,0 +1,44 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+**/*secret*
+**/*credentials*
+**/*.pem
+**/*.key
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Runtime data and audit records
+Infrastructure/Memory-MCP/data/
+Infrastructure/Memory-MCP/profile list
+*.log
+logs/
+
+# Local configuration containing paths and identities
+Infrastructure/Memory-MCP/config/*.yaml
+!Infrastructure/Memory-MCP/config/*.example.yaml
+
+# Obsidian vaults and local settings
+Vaults/
+.obsidian/
+
+# Backups
+backups/
+Backups/
+
+# Operating system files
+.DS_Store
+Thumbs.db
